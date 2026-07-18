@@ -49,7 +49,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![video walkthrough](https://github.com/user-attachments/assets/939ea763-86b5-4359-b5a5-d61520731ed9)
+![video walkthrough](https://github.com/user-attachments/assets/eaa459e2-aeb9-4913-82c2-68149fc6e3ee)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
