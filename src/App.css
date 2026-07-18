@@ -1,0 +1,179 @@
+.bg-container {
+	position: fixed;
+	inset: 0;
+	overflow: hidden;
+	background: #000;
+	z-index: -1;
+}
+
+.bg-grid {
+	position: absolute;
+	inset: 0;
+	background-image:
+		linear-gradient(to right, #0b696650 2px, transparent 2px),
+		linear-gradient(to bottom, #510b6950 2px, transparent 2px);
+	background-size: 48px 48px;
+}
+
+.bg-shadow {
+	position: absolute;
+	inset: 0;
+	background-image: linear-gradient(to bottom, transparent 80%, black 100%);
+}
+
+.layout {
+	display: flex;
+	min-height: 100%;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	background-color: #222222bb;
+}
+
+.not-found {
+	text-align: center;
+}
+
+.content {
+	flex: 1;
+}
+
+.navlink {
+	font-size: 1.25;
+	color: #fff;
+	text-decoration: none;
+	margin: 2rem;
+	text-align: center;
+}
+
+.home {
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.create-post {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	margin: 4rem;
+	text-align: center;
+}
+
+.create-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: center;
+}
+
+.inputs {
+	display: flex;
+	gap: 1rem;
+	align-items: start;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: solid white 4px;
+	border-radius: 1rem;
+	background-color: gray;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.input-container input {
+	margin: 1rem;
+}
+
+.submit {
+	background-color: lightskyblue;
+	color: white;
+	font-size: 2rem;
+	padding: 1rem;
+	width: 12rem;
+	border: solid white 4px;
+	border-radius: 99999px;
+}
+
+.deleteButton {
+	background-color: lightcoral;
+	color: white;
+	font-size: 2rem;
+	padding: 1rem;
+	width: 12rem;
+	border: solid white 4px;
+	border-radius: 99999px;
+}
+
+.ViewCrewmates {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.Card {
+	backdrop-filter: blur(2px);
+	border: 1px solid rgba(153, 153, 153, 0.497);
+	border-radius: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	margin-bottom: 25px;
+	width: 400px;
+	text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moreButton {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 30px;
+}
+
+.moreButton:hover,
+.submit:hover,
+.deleteButton {
+    cursor: pointer;
+}
+
+.silhouette {
+  width: 8rem;
+  margin: 1rem;
+}
+
+.name,
+.speed,
+.color {
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+}
+
+.detailView {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
